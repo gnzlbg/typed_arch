@@ -19,8 +19,8 @@ pub use self::avx::*;
 // mod bmi2;
 // pub use self::bmi2::*;
 
-// mod bswap;
-// pub use self::bswap::*;
+mod bswap;
+pub use self::bswap::*;
 
 mod cpuid;
 pub use self::cpuid::*;
