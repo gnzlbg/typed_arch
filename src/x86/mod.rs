@@ -6,15 +6,14 @@ mod macros;
 mod abm;
 // pub use self::abm::*;
 
-// FIXME: requires i128x1
 // mod aes;
 // // pub use self::aes::*;
 
-mod avx;
-pub use self::avx::*;
+mod avx; // FIXME: unfinished
+pub use self::avx::*; // FIXME: unfinished
 
-// mod avx2;
-// // pub use self::avx2::*;
+mod avx2; // FIXME: unfinished
+pub use self::avx2::*;
 
 // mod bmi1;
 // pub use self::bmi1::*;
@@ -31,7 +30,7 @@ pub use self::cpuid::*;
 mod eflags;
 pub use self::eflags::*;
 
-// mod fxsr;
+// mod fxsr; // FIXME: requires updating std::arch with stdsimd
 // pub use self::fxsr::*;
 
 // mod mmx;
@@ -49,23 +48,23 @@ pub use self::rdrand::*;
 // mod sha;
 // pub use self::sha::*;
 
-// mod sse;
-// pub use self::sse::*;
+mod sse; // FIXME: unfinished
+pub use self::sse::*;
 
 mod sse2;
 pub use self::sse2::*;
 
-// mod sse3;
-// pub use self::sse3::*;
+mod sse3; // FIXME: unfinished
+pub use self::sse3::*;
 
-// mod sse41;
-// pub use self::sse41::*;
+mod sse41; // FIXME: unfinished
+pub use self::sse41::*;
 
 // mod sse42;
 // pub use self::sse42::*;
 
-// mod ssse3;
-// pub use self::ssse3::*;
+mod ssse3; // FIXME: unfinished
+pub use self::ssse3::*;
 
 // mod tbm;
 // pub use self::tbm::*;

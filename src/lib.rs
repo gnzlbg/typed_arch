@@ -2,7 +2,7 @@
 //!
 //! This crate exposes the `std::arch` intrinsics using the `std::simd` portable
 //! vector types.
-#![feature(stdsimd, target_feature)]
+#![feature(stdsimd, target_feature, fn_must_use)]
 #![no_std]
 
 use core::{mem, simd};

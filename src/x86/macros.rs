@@ -262,3 +262,26 @@ macro_rules! constify_imm8 {
         }
     };
 }
+
+macro_rules! constify_imm4 {
+    ($imm8:expr, $expand:ident) => {
+        match ($imm8) & 0b1111 {
+            0 => $expand!(0),
+            1 => $expand!(1),
+            2 => $expand!(2),
+            3 => $expand!(3),
+            4 => $expand!(4),
+            5 => $expand!(5),
+            6 => $expand!(6),
+            7 => $expand!(7),
+            8 => $expand!(8),
+            9 => $expand!(9),
+            10 => $expand!(10),
+            11 => $expand!(11),
+            12 => $expand!(12),
+            13 => $expand!(13),
+            14 => $expand!(14),
+            _ => $expand!(15),
+        }
+    };
+}
