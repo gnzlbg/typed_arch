@@ -4,9 +4,12 @@ set -ex
 
 : ${TARGET?"The TARGET environment variable must be set."}
 
-rustup target add ${TARGET} || true
+CARGO_CMD=cargo
 
-cargo install cross
+if [[ ${TARGET} == *"linux"* ]]; then
+    cargo install cross
+    CARGO_CMD=cross
+fi
 
-cross test --target=${TARGET}
-cross test --release --target=${TARGET}
+${CARGO_CMD} test --target=${TARGET}
+${CARGO_CMD} test --release --target=${TARGET}

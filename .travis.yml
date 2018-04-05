@@ -20,6 +20,8 @@ matrix:
         - rustup component add rustfmt-preview
       script:
         - cargo fmt -- --write-mode=diff
+
+before_script: rustup target add ${TARGET} || true
 script: ci/run.sh
 
 notifications:
