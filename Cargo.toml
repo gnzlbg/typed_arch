@@ -1,5 +1,5 @@
 [package]
-name = "tarch"
+name = "typed_arch"
 version = "0.1.0"
 authors = ["gnzlbg <gonzalobg88@gmail.com>"]
 description = "typed std::arch intrinsics"
