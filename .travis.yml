@@ -1,5 +1,6 @@
 language: rust
 rust: nightly
+cache: cargo
 matrix:
   fast_finish: true
   include:

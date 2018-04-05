@@ -6,5 +6,7 @@ set -ex
 
 rustup target add ${TARGET} || true
 
-cargo test --target=${TARGET}
-cargo test --release --target=${TARGET}
+cargo install cross
+
+cross test --target=${TARGET}
+cross test --release --target=${TARGET}
