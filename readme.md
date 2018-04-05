@@ -1,6 +1,6 @@
-# Portably-typed `std::arch` intrinsics
+# Typed `std::arch` intrinsics
 
-> WIP
+> Exposes the `std::arch` intrinsics typed with the `std::simd` types
 
 [![Travis-CI Status]][travis] [![Appveyor Status]][appveyor] [![Latest Version]][crates.io] [![docs]][docs.rs]
 

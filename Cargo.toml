@@ -2,5 +2,11 @@
 name = "tarch"
 version = "0.1.0"
 authors = ["gnzlbg <gonzalobg88@gmail.com>"]
-
-[dependencies]
+description = "typed std::arch intrinsics"
+documentation = "https://docs.rs/typed_arch"
+homepage = "https://github.com/gnzlbg/typed_arch"
+repository = "https://github.com/gnzlbg/stdsimd"
+readme = "readme.md"
+keywords = ["std", "simd", "intrinsics"]
+categories = ["hardware-support"]
+license = "MIT/Apache-2.0"
