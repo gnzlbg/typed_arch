@@ -8,7 +8,7 @@ pub use arch::{_mm_clflush, _mm_lfence, _mm_mfence, _mm_pause, _mm_add_si64,
                _mm_stream_si128, _mm_stream_si32, _mm_sub_si64,
                _mm_undefined_si128, _mm_xor_si128};
 use mem::transmute;
-pub use simd::*;
+use simd::*;
 
 /// Add
 #[inline]
