@@ -37,8 +37,8 @@ pub use self::eflags::*;
 // mod pclmulqdq;
 // pub use self::pclmulqdq::*;
 
-// mod rdrand;
-// pub use self::rdrand::*;
+mod rdrand;
+pub use self::rdrand::*;
 
 // mod rdtsc;
 // pub use self::rdtsc::*;
