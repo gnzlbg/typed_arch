@@ -1,6 +1,8 @@
 language: rust
 rust: nightly
 cache: cargo
+services: docker
+sudo: required
 matrix:
   fast_finish: true
   include:
