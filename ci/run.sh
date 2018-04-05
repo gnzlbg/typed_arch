@@ -7,7 +7,7 @@ set -ex
 CARGO_CMD=cargo
 
 if [[ ${TARGET} == *"linux"* ]]; then
-    cargo install cross
+    cargo install cross || true
     CARGO_CMD=cross
 fi
 
