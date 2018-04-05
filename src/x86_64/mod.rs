@@ -26,8 +26,8 @@ pub use self::avx::*;
 // mod fxsr;
 // pub use self::fxsr::*;
 
-// mod rdrand;
-// pub use self::rdrand::*;
+mod rdrand;
+pub use self::rdrand::*;
 
 // mod sse;
 // pub use self::sse::*;
