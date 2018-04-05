@@ -1,4 +1,7 @@
-//! Typed `std::arch` intrinsics
+//! Portably-typed `std::arch` intrinsics.
+//!
+//! This crate exposes the `std::arch` intrinsics using the `std::simd` portable
+//! vector types.
 #![feature(stdsimd, target_feature)]
 #![no_std]
 

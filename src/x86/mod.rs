@@ -22,11 +22,11 @@ pub use self::avx::*;
 // mod bswap;
 // pub use self::bswap::*;
 
-// mod cpuid;
-// pub use self::cpuid::*;
+mod cpuid;
+pub use self::cpuid::*;
 
-// mod eflags;
-// pub use self::eflags::*;
+mod eflags;
+pub use self::eflags::*;
 
 // mod fxsr;
 // pub use self::fxsr::*;
