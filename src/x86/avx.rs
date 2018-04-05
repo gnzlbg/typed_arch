@@ -1,7 +1,7 @@
 //! Advanced Vector Extensions (AVX)
 
-use simd::{f64x4};
 use mem::transmute;
+use simd::f64x4;
 
 /// Adds two 256-bit f64x4 vectors.
 #[inline]

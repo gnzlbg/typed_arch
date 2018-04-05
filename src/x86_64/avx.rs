@@ -1,7 +1,7 @@
 //! Advanced Vector Extensions (AVX)
 
-use simd::{i64x4};
 use mem::transmute;
+use simd::i64x4;
 
 /// Copy `a` to result, and insert the 64-bit integer `i` into result
 /// at the location specified by `index`.
