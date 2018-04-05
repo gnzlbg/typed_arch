@@ -1,6 +1,6 @@
 [package]
 name = "typed_arch"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["gnzlbg <gonzalobg88@gmail.com>"]
 description = "typed std::arch intrinsics"
 documentation = "https://docs.rs/typed_arch"

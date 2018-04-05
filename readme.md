@@ -1,6 +1,6 @@
-# Typed `std::arch` intrinsics
+# Typed `std::arch` SIMD intrinsics
 
-> Exposes the `std::arch` intrinsics typed with the `std::simd` types
+> Exposes the `std::arch` SIMD intrinsics using the `std::simd` types
 
 [![Travis-CI Status]][travis] [![Appveyor Status]][appveyor] [![Latest Version]][crates.io] [![docs]][docs.rs]
 
