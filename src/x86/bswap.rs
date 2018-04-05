@@ -1,3 +1,3 @@
 //! Byte swap intrinsics.
 
-pub use ::arch::{_bswap};
+pub use arch::_bswap;

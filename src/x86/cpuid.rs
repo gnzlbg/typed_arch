@@ -1,3 +1,3 @@
 //! `cpuid` intrinsics
 
-pub use arch::{CpuidResult, __cpuid_count, __cpuid, has_cpuid, __get_cpuid_max};
+pub use arch::{__cpuid, __cpuid_count, __get_cpuid_max, has_cpuid, CpuidResult};
