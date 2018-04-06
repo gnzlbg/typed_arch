@@ -2,6 +2,12 @@
 
 > Exposes the `std::arch` SIMD intrinsics using the `std::simd` types
 
+This library has two main objectives:
+
+* Expose a type-safe interface to the `std::arch` intrinsics
+* Have great documentation
+
+
 [![Travis-CI Status]][travis] [![Appveyor Status]][appveyor] [![Latest Version]][crates.io] [![docs]][docs.rs]
 
 [travis]: https://travis-ci.org/gnzlbg/typed_arch

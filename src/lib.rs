@@ -7,6 +7,8 @@
 
 use core::{mem, simd};
 
+mod sealed;
+
 mod arch {
     #[cfg(target_arch = "x86")]
     pub use core::arch::x86::*;
