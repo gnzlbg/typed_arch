@@ -33,8 +33,8 @@ pub use self::eflags::*;
 // mod fxsr; // FIXME: requires updating std::arch with stdsimd
 // pub use self::fxsr::*;
 
-// mod mmx;
-// pub use self::mmx::*;
+mod mmx;
+pub use self::mmx::*;
 
 // mod pclmulqdq;
 // pub use self::pclmulqdq::*;
